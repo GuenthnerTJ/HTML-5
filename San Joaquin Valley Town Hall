@@ -1,0 +1,123 @@
+<html lang="en" style="" class=" js flexbox flexboxlegacy canvas canvastext webgl touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients no-cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths adownload audiodata battery webaudio no-lowbattery blobconstructor contenteditable contextmenu cookies cors bgpositionshorthand no-bgrepeatround no-bgrepeatspace no-bgpositionxy no-display-runin bgsizecover csscalc boxsizing cubicbezierrange display-table cssfilters no-cssmask lastchild mediaqueries object-fit pointerevents cssremunit csspositionsticky cssresize no-regions no-shapes no-cssscrollbar no-subpixelfont supports no-userselect cssvhunit cssvminunit cssvmaxunit cssvwunit customprotocolhandler no-createelement-attrs dataview classlist dataset microdata datalistelem no-details outputelem progressbar meter ruby no-time texttrackapi track devicemotion deviceorientation filereader fileinput formattribute no-filesystem placeholder no-speechinput formvalidation fullscreen gamepads getusermedia no-ie8compat sandbox no-seamless srcdoc json no-webp apng no-exif-orientation todataurljpeg no-todataurlwebp"><head>
+	<meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+	<title>San Joaquin Valley Town Hall</title>
+	<link href="images/favicon.ico" rel="shortcut icon">
+	<link href="styles/normalize.css" rel="stylesheet">
+	<link href="styles/main.css" rel="stylesheet">
+    <link href="styles/slicknav.css" type="text/css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+    <script src="javascript/modernizr.custom.2.8.3(Complete).js"></script>
+	<script src="javascript/jquery.slicknav.min.js"></script>
+	
+    <script type="text/javascript">
+		$(document).ready(function() {
+            $('#nav_menu').slicknav({prependTo:"#mobileMenu"});
+        });
+		</script>
+</head>
+
+<body>
+	<header>
+		<img height="80" alt="Town Hall logo" src="images/town_hall_logo.gif">
+		<h2>San Joaquin Valley Town Hall</h2>
+		<h3>Celebrating our <span class="shadow">75<sup>th</sup></span> Year</h3>
+	</header>
+    <nav id="mobileMenu"><div class="slicknav_menu"><a class="slicknav_btn" tabindex="0" aria-haspopup="true" href="#"><span class="slicknav_menutxt">MENU</span><span class="slicknav_icon"><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span><span class="slicknav_icon-bar"></span></span></a><nav class="slicknav_nav slicknav_hidden" style="display: none;" aria-hidden="true" role="menu">
+    	<ul>
+        	<li><a href="index.html" role="menuitem">Home</a></li>
+        	<li class="slicknav_collapsed slicknav_parent"><a class="slicknav_item" tabindex="-1" aria-haspopup="true" role="menuitem" href="#"><a href="image_swaps.html">Speakers</a>
+            	<span class="slicknav_arrow">►</span></a><ul role="menu" class="slicknav_hidden" style="display: none;" aria-hidden="true">
+                	<li><a href="speakers/toobin.html" role="menuitem" tabindex="-1">Jeffrey Toobin</a></li>
+                    <li><a href="#" role="menuitem" tabindex="-1">Andrew Ross Sorkin</a></li>
+                    <li><a href="#" role="menuitem" tabindex="-1">Amy Chua</a></li>
+                    <li><a href="speakers/sampson.html" role="menuitem" tabindex="-1">Scott Sampson</a></li>
+                </ul>
+                </li>
+        	<li><a href="luncheons.html" role="menuitem">Luncheons</a></li>
+        	<li><a href="tickets.html" role="menuitem">Tickets</a></li>
+        	<li class="slicknav_collapsed slicknav_parent"><a class="slicknav_item" tabindex="-1" aria-haspopup="true" role="menuitem" href="#"><a href="aboutus.html">About Us</a>
+            	<span class="slicknav_arrow">►</span></a><ul role="menu" class="slicknav_hidden" style="display: none;" aria-hidden="true">
+                	<li><a href="#" role="menuitem" tabindex="-1">Our History</a></li>
+                	<li><a href="#" role="menuitem" tabindex="-1">Board of Directors</a></li>
+                	<li><a href="#" role="menuitem" tabindex="-1">Past Speakers</a></li>
+                	<li><a href="#" role="menuitem" tabindex="-1">Contact Information</a></li>
+            	</ul>
+        	</li>
+    	</ul>
+	</nav></div></nav>
+	<nav id="nav_menu">
+    	<ul>
+        	<li><a href="index.html">Home</a></li>
+        	<li><a href="image_swaps.html">Speakers</a>
+            	<ul>
+                	<li><a href="speakers/toobin.html">Jeffrey Toobin</a></li>
+                    <li><a href="#">Andrew Ross Sorkin</a></li>
+                    <li><a href="#">Amy Chua</a></li>
+                    <li><a href="speakers/sampson.html">Scott Sampson</a></li>
+                </ul>
+                </li>
+        	<li><a href="luncheons.html">Luncheons</a></li>
+        	<li><a href="tickets.html">Tickets</a></li>
+        	<li><a href="aboutus.html">About Us</a>
+            	<ul>
+                	<li><a href="#">Our History</a></li>
+                	<li><a href="#">Board of Directors</a></li>
+                	<li><a href="#">Past Speakers</a></li>
+                	<li><a href="#">Contact Information</a></li>
+            	</ul>
+        	</li>
+    	</ul>
+	</nav>
+    <section>
+        <h2>Our Mission</h2>
+        <p>San Joaquin Valley Town Hall is a non-profit organization that is run by an 
+           all-volunteer board of directors. Our mission is to bring nationally and 
+           internationally renowned, thought-provoking speakers who inform, educate, 
+           and entertain our audience! As one or our members told us:</p>
+        <blockquote>“Each year I give a ticket package to each of our family members. 
+        I think of it as the gift of knowledge...and that is priceless.”</blockquote>
+        
+        <h1>Speaker of the Month</h1>
+        <article>
+            <h2>Fossil Threads in the Web of Life</h2>
+            <img alt="Scott Sampson with dinosaur" src="images/sampson_dinosaur.jpg">
+            <h3>February<br>
+            Scott Sampson</h3>
+            <p>What's 75 million years old and brand spanking new? A teenage Utahceratops! 
+            Come to the Saroyan, armed with your best dinosaur roar, when Scott Sampson, Research 
+            Curator at the Utah Museum of Natural History, steps to the podium. Sampson's research 
+            has focused on the ecology and evolution of late Cretaceous dinosaurs and he has conducted 
+            fieldwork in a number of countries in Africa.</p>
+            <p>
+                <a href="speakers/sampson.html">Read more.</a>&nbsp;
+                <a target="_blank" href="media/sampson.swf">Or play video.</a>
+            </p>
+        </article>
+        
+        <h2>Our Ticket Packages</h2>
+        <ul>
+            <li>Season Package: $95</li>
+            <li>Patron Package: $200</li>
+            <li>Single Speaker: $25</li>
+        </ul>
+    </section>
+    <aside>
+        <h2>Guest speakers</h2>
+        <div id="speakers">
+            <h3>October<br><a href="speakers/toobin.html">Jeffrey Toobin</a></h3>
+            <img alt="Jeffrey Toobin photo" src="images/toobin75.jpg">
+            <h3>November<br><a href="speakers/sorkin.html">Andrew Ross Sorkin</a></h3>
+            <img alt="Andrew Ross Sorkin photo" src="images/sorkin75.jpg">
+            <h3>January<br><a href="speakers/chua.html">Amy Chua</a></h3>
+            <img alt="Amy Chua photo" src="images/chua75.jpg">
+            <h3>February<br><a href="speakers/sampson.html">Scott Sampson</a></h3>
+            <img alt="Scott Sampson photo" src="images/sampson75.jpg">
+        </div>
+    </aside>
+	<footer>
+		<p>&copy; 2015, San Joaquin Valley Town Hall, Fresno, CA 93755</p>
+	</footer>
+
+
+</body></html>
